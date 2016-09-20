@@ -1,0 +1,32 @@
+{
+  "name": "logdir",
+  "version": "0.0.1",
+  "description": "takes logs in a directory, puts those json files into elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhurlow/logdir.git"
+  },
+  "keywords": [
+    "log",
+    "es",
+    "events"
+  ],
+  "author": "Brian Hurlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhurlow/logdir/issues"
+  },
+  "homepage": "https://github.com/bhurlow/logdir#readme",
+  "devDependencies": {
+    "fakestream": "^0.1.0",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "superagent": "^2.2.0"
+  }
+}
